@@ -1,0 +1,87 @@
+
+SYSTEM NAME: MULTI-AGENCY COLLABORATION
+
+AIM: CRIME INDICTMENT
+
+
+People in a system
+______________________________________________________________
++Admin
++NGO
++Police                                                  (TABLE 1 - USERS)
+                                                        
+                                                        
+
+Characteristics of Admin in system
+_______________________________________________________________
+-Register Police stations                                (TABLE 2 - POLICE STATIONS)
+-View users infos
+-View Indictments 
+
+Characteristics of NGO in system
+_______________________________________________________________
+
+-Register as NGO                                        (TABLE 3 - NGOS)
+-Report crime - indictment (option - Woman/Child crim   (TABLE 4 - INDICTMENTS) 
+-View reported crimes
+-Select NGO on registration 
+-Edit personal infos
+-Edit working infos
+-View profile
+-View victims
+
+Characteristics of Police in system
+_______________________________________________________________
+
+-Register as police
+-Confirm Indictments
+-Reject Indictments
+-Select police station on registration 
+-Register NGOs
+-Edit NGO infos
+-Edit personal infos
+-Edit working infos
+-View profile
+-View victims
+
+------------------------------------------------------- (TABLE 5 - REGIONS)
+
+
+-Select type of victim on indictment
+
+
+MAIN PAGES
+
+1. SIGNUP 
+2. LOGIN
+3. USER ACCOUNT SETTING
+4. REPORT / INDICTIMENT - USER
+5. VIEW INDICTMENTS - ADMIN / USER
+6. CONFIRM INDICTS - ADMIN
+7. VIEW VICTIMS
+8. ADD USERS
+
+SUB PAGES
+
+9. Women victim list
+10. Children victim list
+11. Confirmed indicts
+12. Unconfirmed indicts *2
+14. Report Children
+15. Report Women
+16. Logout
+
+
+OTHER TIPS (COMPLICATED MIND BLOWING TOPICS)
+
+-When report sent should be sent with the name of user, and name of its organization
+ >>(the input should be taken fron authentication details)
+
+-The name of the user should appear at the top navigation of its every page
+
+-Remove '.php' extensions from my system files
+
+
+- create function to call session to help systym restriction (pages eg pilice shoul not see for admin)
+- to simplify things, i should use function (it will help me call anything i need using it)
+

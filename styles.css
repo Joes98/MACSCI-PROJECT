@@ -1,0 +1,1082 @@
+.logout-btn-forged a:hover{
+    background: none;
+    border: 1px solid rgb(247, 163, 61);
+}
+
+
+/* admin dashboard */
+
+.dashboard-contents-left{
+    background-color: white;
+    border-radius: .5rem;
+    height:auto;
+    flex-wrap: wrap;
+    padding: 2rem;
+    margin-top: 1rem;
+    align-items: center;
+    border: 1px solid blue;
+    display: flex;
+    justify-content: space-between;
+}.contents-left-image{
+    padding: .3rem;
+    border-radius: 50%;
+    width: auto;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}.contents-left-image img{
+    width: 7rem;
+}.left-contents-blw-img-contents,
+.left-contents-blw-img-header{
+    text-align: center;
+    color: blue;
+}
+
+.dashboard-contents-right{
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    /* justify-content: center; */
+}.contents-right{
+    background-color: white;
+    padding: 1rem;
+    width: 250px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+    margin: .5rem;
+    border-radius: .5rem;
+}.con-right-header h5{
+    text-align: center;
+}.con-right-header{
+    border-bottom: 1px solid blue;
+}.con-right-contents{
+    display: flex;
+    margin-top: .5rem;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 3rem;
+    justify-content: center;
+}.con-left{
+    background-color: rgb(104, 104, 254);
+    padding: .5rem;
+    width: 8rem;
+    border-radius: .5rem;
+    text-align: center;
+}.con-left p a{
+    text-decoration: none;
+    color: white;
+}.con-right p a{
+    text-decoration: none;
+    color: white;
+}.con-right p{
+    padding: .2rem;
+    background-color: rgb(104, 104, 254);
+    border-radius: .4rem;
+
+}
+
+
+
+
+#input-date label{
+    display: block;
+}.setting-form-input input[type='date']{
+    border: none;
+    background: none;
+    padding: .5rem;
+    border: 2px solid rgb(134, 125, 37);
+    width: 11.5rem;
+}form select option{
+    font-size: 15px;
+    text-transform: capitalize;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    text-decoration: none;
+    list-style: none;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(238, 238, 226);
+    width: 100%;
+}button a{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.navigation-of-home-page{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: .3rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    border-bottom: 1px solid blue;
+}
+img{
+    width: 1.2rem;
+}.align-center{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+.main-home-contents-left{
+    display: none;
+    position: absolute;
+    top: 5rem;
+    width: 20rem;
+    height: 73vh;
+    overflow-y: scroll;
+    margin-right: .3rem;
+    left: 0;
+    background-color: white;
+    padding: 3rem;
+    border-bottom: 1px solid blue;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}.title-navigation-of-home-page h2 a{
+    text-decoration: none;
+}
+.main-contents-home{
+    margin: .3rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    /* width: 100%; */
+    justify-content: center;
+}
+.above-2-flex-home-contents{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.main-home-right-buttons button{
+    border: none;
+    margin-top: 10rem;
+    width: 10rem;
+    height: 7vh;
+    background-color: white;
+}
+.main-home-right-buttons button a{
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: capitalize;
+    color: rgb(194, 11, 11);
+}.for-hiding-purpose{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}.for-hiding-purpose .title-h1{
+    border: 1px solid black;
+    padding: .2rem;
+}
+.for-hiding-purpose button{
+    font-size: 15px;
+    border: none;
+    margin-bottom: .5rem;
+    width: 10rem;
+    height: 7vh;
+    text-transform: capitalize;
+    color: rgb(194, 11, 11);
+}.for-hiding-purpose img:hover{
+    cursor: pointer;
+}
+.main-home-right-buttons,
+.right-home-below{
+    margin-top: 7rem;
+}
+
+
+/* registarion form */
+
+.home-registration-forms{
+    background-color: white;
+    margin: 2rem 2rem;
+    border: 1px solid blue;
+    box-shadow: 0 2px 5px 0 rgba(98, 59, 252, 0.2);
+}
+.home-registration-forms img{
+    width: 10rem;
+}.home-registration-forms input[type='password'],
+.home-registration-forms input[type='text']{
+    border: none;
+    border-bottom: 2px solid blue;
+    background-color: rgb(238, 238, 226);
+    padding: .5rem;
+    width: 15rem;
+}
+.home-registration-forms{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    padding: 2rem;
+}.registration-form-desc-2{
+    display: flex;
+    gap: 1rem;
+}.reg-form-p a{
+    text-decoration: none;
+}.home-registration-forms-right{
+    padding: 1rem;
+}.registration-form label{
+    display: block;
+}.registration-form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}.home-registration-forms select{
+    width: 260px;
+    padding: .5rem;
+    border: 2px solid rgb(134, 125, 37);
+}.home-registration-forms select option{
+    font-size: 15px;
+}
+
+
+
+/* users */
+
+#home{
+    display: flex;
+    gap: 2rem;
+}
+#header{
+    background-color: white;
+    padding: 1rem;
+    height: 95vh;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    line-height: 2.5rem;
+    border-right: 1px solid blue;
+    border-bottom: 1px solid blue;
+    box-shadow: 0 4px 8px 0 rgba(125, 94, 247, 0.2);
+    position: fixed;
+}
+.users-pannel-bottom{
+    margin-top: 70vh;
+}.users-pannel-top{
+    margin-top: 1.5rem;
+}
+.users-pannel-top-hides{
+    position: absolute;
+    background-color: white;
+    left: 3.5rem;
+    padding: 1.5rem;
+    top: 5rem;
+    height: 83vh;
+    box-shadow: 0 4px 8px 0 rgba(115, 111, 248, 0.2);
+    display: none;
+    width: 18rem;
+    overflow-y: scroll;
+    border-right: 1px solid blue;
+    border-bottom: 1px solid blue;
+}
+.users-pannel-top-shortcuts img:hover{
+    cursor: pointer;
+}
+.top-hides-tools ul{
+    display: flex;
+    list-style: none;
+    line-height: 3rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}.top-hides-tools ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}.thentery{
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}.thenter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}.top-hides-tools-manage{
+    margin-top: 4rem;
+}
+.top-hides-tools-manage ul{
+    list-style: none;
+    line-height: 3rem;
+}.top-hides-tools-manage ul li a{
+    border-bottom: 1px solid blue;
+    text-decoration: none;
+    color: black;
+}
+
+#main{
+    width: 95vw;
+    margin-left: 3.5rem;
+    margin-bottom: .5rem;
+    margin-right: .5rem;
+
+    /* below are css for practise */
+
+    /* height: 100vh; */
+    /* padding: 0 1rem; */
+    /* overflow-y: scroll; */
+    /* background-color: rgb(27, 2, 2); */
+}
+.users-main-navigation{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.3rem;
+    padding: 1.5rem;
+    height: 1.5vh;
+    box-shadow: 0 4px 8px 0 rgba(119, 104, 248, 0.2);
+    border-right: 40px solid blue;
+    border-left: 40px solid blue;
+}
+
+/* reports */
+
+.reports-navigation-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.3rem;
+    padding: 1.5rem;
+    height: 1.5vh;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgb(247, 187, 187);
+}.report-heading-select-type{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}.report-heading-select-type button{
+    background: none;
+    border: none;
+    padding: .5rem;
+    background-color: rgb(238, 238, 226);
+}.report-heading-select-type button a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+    font-weight: bolder;
+}.some-reports{
+    margin-top: 5rem;
+}.reports-i-i{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 15rem;
+    padding: 1rem;
+}.victims{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}.region{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}.reports-i-i button{
+    background: none;
+    border: none;
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: rgb(238, 238, 226);
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: capitalize;
+    width: 100%;
+    cursor: pointer;
+}.reports-i-i button a{
+    text-decoration: none;
+    color: black;
+}.buttons input[type='button']{
+    background: none;
+    border: none;
+    font-weight: bold;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 100%;
+    font-size: 12px;
+    cursor: pointer;
+    color: black;
+    padding: 0;
+    background-color: rgb(238, 238, 226);
+}.buttons{
+    display: flex;
+    gap: 1rem;
+}.dot-as-pic{
+    width: 3rem;
+    height: 3rem;
+    background-color: rgb(51, 2, 2);
+    border-radius: 50%;
+}.dot-as-pic p{
+    display: flex;
+    color: rgb(51, 2, 2);
+    justify-content: center;
+    align-items: center;
+}.some-reports-mentioned{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+/* report form */
+
+.report-form-all{
+    padding: 0;
+}.report-form-how-it-display{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: white;
+}.report-form-how-it-display select{
+    width: 260px;
+    padding: .5rem;
+    border: 2px solid rgb(134, 125, 37);
+}form input[type='text']{
+    background: none;
+    border: none;
+    border: 2px solid rgb(134, 125, 37);
+    width: 15rem;
+    padding: .5rem;
+}form input[placeholder]{
+    text-transform: capitalize;
+    color: black;
+    font-weight: bolder;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}form input[type='button']{
+    background: none;
+    border: none;
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: rgb(247, 187, 187);
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: capitalize;
+    /* width: 100%; */
+    display: flex;
+    float: right;
+    cursor: pointer;
+}.report-form{
+    line-height: 3rem;
+}form label{
+    display: none;
+}.input-data{
+    padding: 1rem;
+}.of-report-form-bottom{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: white;
+    margin-top: 1rem;
+}.of-report-form-bottom input[type='text']{
+    height: 15vh;
+}#form-input{
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-bottom: .9rem;
+}
+
+
+
+
+/* victims' information  */
+
+.victim-details-body{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 1.5rem;
+}.standard-details{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+}.basic-details-flex{
+    display: flex;
+    justify-content: space-between;
+}.vdetails-button input[type='button']{
+    background: none;
+    border: none;
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: rgb(247, 187, 187);
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 1px solid rgb(247, 187, 187);
+    cursor: pointer;
+}
+
+
+/* list of victims */
+
+.list-of-victims-select-category{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 2rem;
+}.category-v-list{
+    display: flex;
+    align-items: center;
+}.indicts-no p{
+    /* background-color: blue; */
+    color: white;
+    padding: .5rem;
+    width: 50px;
+    text-transform: capitalize;
+    font-size: 17px;
+}.indicts-cat p a{
+    border: 1px solid blue;
+    border-left: 50px solid bisque;
+    background-color: white;
+    color: blue;
+    padding: .5rem;
+    width: 200px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 17px;
+}
+
+.list-of-victims-header{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}.v-header-search{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    gap: .2rem;
+    padding: 5px;
+    border-radius: 1px solid rgb(247, 187, 187);
+}.v-header-search input[type='search']{
+    border: none;
+    padding: .3rem;
+}.list-of-victims-table{
+    margin-top: 2rem;
+}.my-victims-table-scss th{
+    background-color: rgb(104, 104, 254);
+    padding: .4rem;
+    text-align: center;
+    color: white;
+}.my-victims-table{
+    border-collapse: collapse;
+    width: 100%;
+}.my-victims-table-scss td, 
+.my-victims-table-scss th{
+    border: 1px solid white;
+}.my-victims-table tr td{
+    padding: 10px 0 10px 0;
+}
+.my-victims-table tr .n-left{
+    text-align: left;
+}
+
+.my-victims-table-scss td{
+    text-align: center;
+}.my-victims-table-scss td a{
+    text-decoration: none;
+    background-color: bisque;
+    padding: .5rem 1rem;
+    font-size: 16px;
+    color: blue;
+    padding: .5re 1rem;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}.my-victims-table-scss td a:hover{
+    color: blue;
+    background: none;
+    transition: .4s;
+    border: 1px solid bisque;
+}
+
+/*  users / admins - account setting */
+
+.account-setting-select-setting{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 3rem;
+}.info-setting-block-select a{
+    text-decoration: none;
+    padding: 3rem;
+    color: rgb(126, 53, 53);
+}.info-setting-block-select{
+    background-color: white;
+}.info-setting-block{
+    margin-top: 2rem;
+}
+/* .form-whole-setting lable{
+    display: block;
+} */
+.form-whole-setting{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    row-gap: 2rem;
+    background-color: white;
+    padding: 1rem;
+}
+.setting-form-button input[type='submit']{
+    padding: .5rem 2rem;
+    font-size: 17px;
+    text-transform: capitalize;
+    font-weight: bold;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin: .5rem;
+    background-color: rgb(104, 104, 254);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}.setting-form-button input[type='submit']:hover{
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;
+    transition: .4s;
+}
+table input[type='submit']{
+    /* padding: .5rem 2rem; */
+    font-size: 17px;
+    text-transform: capitalize;
+    font-weight: bold;
+    border: none;
+    background: none;
+    cursor: pointer;
+    /* background-color: rgb(247, 157, 157); */
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* full user profile */
+
+.user-profile-head-with-nav{
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}.user-profile-head a{
+    text-decoration: none;
+    font-weight: bold;
+    background-color: white;
+    padding: 1rem;
+}.user-profile-details-body{
+    margin-top: 1rem;
+}.user-profile-details-body img{
+    width: 5rem;
+    background: linear-gradient(-123deg, rgb(197, 240, 229), rgb(211, 156, 94));
+    padding: 2rem;
+    border-radius: 50%;
+}.user-profile-above,
+.user-profile-below{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: white;
+    padding: 4rem;
+    margin-top: 2rem;
+}.user-profile-let-be-flex{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+}.user-profile-name-1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* indict pannel  */
+
+.indict--pannel-head{
+    position: relative;
+    display: inline-block;
+}.indict--pannel-head h3{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}.indict-pannel-head-how-to p{
+    background-color: white;
+    padding: .5rem;
+    max-width: 150px;
+}.indict-pannel-head-how-to{
+    display: none;
+    position: absolute;
+    top: 2rem;
+}.indict--pannel-head:hover .indict-pannel-head-how-to{
+    display: block;
+}.indict-pannel-navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 0 .5rem;
+    margin-bottom: 1rem;
+}.indict-pannel input[type='search']{
+    border: 1px solid rgb(247, 187, 187);
+}
+
+
+/* indictments */
+
+.in-td{
+    width: 150px;
+}.in-td a{
+    text-decoration: none;
+}.in-reg{
+    width: 100px;
+}
+
+/* collaborators */
+
+.collaborators-lists-themselves{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2rem;
+}.collaborator-back-experience{
+    background-color: white;
+    padding: 2rem;
+    width: 170px;
+}.collaborator-name{
+    background-color: bisque;
+    padding: 1rem;
+    width: 150px;
+    /* position: absolute; */
+    top: 0;
+}
+/* .collaborator-as-1{
+    position: relative;
+    display: inline-block;
+} */
+
+/* user faqs */
+
+.user-faqs{
+    background-color: white;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ...................................................................... */
+
+/* list of victims css with no html tables */
+
+.list-of-victims-themselves{
+    display: none;
+}
+/*.list-of-victims-name-buttons{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-left: 2rem;
+}.list-of-victims-listed{
+    display: flex;
+    gap: 10rem;
+    align-items: center;
+}.list-of-victims-victim-1{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(247, 187, 187);
+}.list-of-victims-name a{
+    text-decoration: none;
+    color: black;
+}.list-of-victims-name input[type='button']{
+    padding: 0;
+    margin: 0;
+    background: none;
+}.list-of-victims-name a,
+.list-of-victims-name input[type='button']{
+    color: rgb(5, 0, 0);
+    background-color: rgb(247, 187, 187);
+    padding: 2px 7px;
+}.list-of-victims-victim-1{
+    padding: 0 1rem;
+    background-color: white;
+} */
+
+
+
+
+/* ...............................................................  */
+
+@media screen and (max-width: 740px){
+    .other-width-dis{
+        display: none;
+    }
+}
+
+/* .form-basic-details,
+.form-standard-details,
+.form-parental-details{
+    margin-right: 2rem;
+}
+.report-form{
+    width: 300px;
+    padding: 2rem;
+}.report-form .input-data{
+    height: 40px;
+    width: 100%;
+    position: relative;
+}.input-data lable{
+    display: none;
+    font-size: 40px;
+}.report-form .input-data input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-bottom: 2px solid rgb(224, 224, 214);
+}.report-form .input-data label{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    pointer-events: none;
+    transition: all .3s ease;
+}.input-data input:focus ~ label,
+.input-data input:valid ~ label{
+    transform: translateY(-20px);
+}.report-form .input-data .underline{
+    position: absolute;
+    bottom: 0px;
+    height: 2px;
+    width: 100%;
+}.input-data .underline:before{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: rgb(233, 218, 190);
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}.input-data input:focus ~ .underline:before,
+.input-data input:valid ~ .underline:before{
+    transform: scaleX(1);
+} */
+/* ..............................  */
+
+/* @media screen and (min-width: 600px) {
+
+    .users-main-navigation{
+        width: 90%;
+    }
+    
+}
+@media screen and (max-width: 800px) {
+
+    .users-main-navigation{
+        width: 82%;
+    }
+    
+}
+@media screen and (max-width: 740px) {
+
+    .users-main-navigation{
+        width: 75%;
+    }.users-nav-username{
+        display: none;
+    }
+    
+}
+@media screen and (max-width: 667px) {
+
+    .users-main-navigation{
+        width: 60%;
+    }
+    
+}
+@media screen and (max-width: 1180px) {
+
+    .users-main-navigation{
+        width: 72%;
+    }.users-nav-username{
+        display:block;
+    }
+    
+}@media screen and (max-width: 653px) {
+
+    .users-main-navigation{
+        width: 52%;
+    }.users-nav-username{
+        display: none;
+    }
+    
+}@media screen and (max-width: 914px) {
+
+    .users-main-navigation{
+        width: 50%;
+    }
+    
+}@media screen and (max-width: 1264px) {
+
+    .users-main-navigation{
+        width: 70%;
+    }
+    
+    
+}@media screen and (max-width: 1024px) {
+
+    .users-main-navigation{
+        width: 86%;
+    }
+    
+    
+}
+@media screen and (max-width: 740px) {
+
+    .users-main-navigation{
+        width: 80%;
+    }.users-nav-username{
+        display:block;
+    }
+    
+    
+}@media screen and (max-width: 1080px) {
+
+    .users-main-navigation{
+        width: 85%;
+    }
+    
+    
+}
+@media screen and (max-width: 2444px) {
+
+    .users-main-navigation{
+        width: 93%;
+    }
+    
+    
+}@media screen and (max-width: 2652px) {
+
+    .users-main-navigation{
+        width: 95%;
+    }
+    
+    
+}@media screen and (max-width: 1920px) {
+
+    .users-main-navigation{
+        width: 92%;
+    }
+    
+    
+} */
